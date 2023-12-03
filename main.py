@@ -21,7 +21,7 @@ def event_handler(event_type):
 
 
 @event_handler(QUIT)
-def on_quit():
+def on_quit(event):
     pygame.quit()
     sys.exit()
 
